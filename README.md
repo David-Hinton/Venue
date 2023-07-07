@@ -57,3 +57,7 @@ Locus integrates additional services such as trash collection, police presence, 
 ## 5. Conclusion
 
 Locus provides a comprehensive software solution for event coordinators to manage and enhance their events. With features such as vendor management, event customization, analytics and reporting, vendor compensation, additional services, and property management, the application aims to streamline event coordination and create memorable experiences for attendees.
+
+## Notes:
+
+Create Memorable Events.
