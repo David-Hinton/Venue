@@ -1,0 +1,68 @@
+Table: Event
+Columns: 
+- event_id (Primary Key)
+- event_name
+- event_date
+- event_description
+- event_location
+- event_swag_enabled
+- subscriber_price
+
+Table: Vendor
+Columns:
+- vendor_id (Primary Key)
+- vendor_name
+- vendor_location
+- vendor_rating
+
+Table: Vendor_Sustainability_Badge
+Columns:
+- badge_id (Primary Key)
+- badge_name
+
+Table: Vendor_Event_Link
+Columns:
+- link_id (Primary Key)
+- event_id (Foreign Key referencing Event.event_id)
+- vendor_id (Foreign Key referencing Vendor.vendor_id)
+- badge_id (Foreign Key referencing Vendor_Sustainability_Badge.badge_id)
+
+Table: User
+Columns:
+- user_id (Primary Key)
+- user_name
+- user_email
+
+Table: Vendor_Compensation
+Columns:
+- compensation_id (Primary Key)
+- event_id (Foreign Key referencing Event.event_id)
+- vendor_id (Foreign Key referencing Vendor.vendor_id)
+- compensation_amount
+
+Table: Event_Assets
+Columns:
+- asset_id (Primary Key)
+- event_id (Foreign Key referencing Event.event_id)
+- asset_name
+- asset_rental_price
+
+Table: Additional_Services
+Columns:
+- service_id (Primary Key)
+- event_id (Foreign Key referencing Event.event_id)
+- service_name
+
+Table: Event_Permits
+Columns:
+- permit_id (Primary Key)
+- event_id (Foreign Key referencing Event.event_id)
+- permit_name
+- permit_status
+
+Table: Analytics
+Columns:
+- analytics_id (Primary Key)
+- event_id (Foreign Key referencing Event.event_id)
+- analytics_data
+
