@@ -1,22 +1,22 @@
-# Venue
+# Locus
 
 ## 1. Introduction
 
-Venue is a software application that provides a comprehensive solution for event coordinators to manage and enhance their events. The application focuses on showcasing vendor locations, facilitating vendor management, collecting customer data, enabling event customization, and offering various features for event coordination and management. This document outlines the design and functionality of Venue.
+Locus is a software application that provides a comprehensive solution for event coordinators to manage and enhance their events. The application focuses on showcasing vendor locations, facilitating vendor management, collecting customer data, enabling event customization, and offering various features for event coordination and management. This document outlines the design and functionality of Locus.
 
 ## 2. System Overview
 
-Venue is designed to provide event coordinators with a user-friendly interface to manage and customize event maps. The system incorporates features such as vendor location display, vendor management, rating vendors, live popularity metrics, event customization, real-time updates, special prices for subscribers, event swag point of sale, email collection for customer retention, campaign options, analytics and reporting, vendor sourcing portal, additional services like trash collection, police presence, and ice delivery, vendor compensation portal, property management, permit process, rental of event assets, and sustainability badge linking to vendors.
+Locus is designed to provide event coordinators with a user-friendly interface to manage and customize event maps. The system incorporates features such as vendor location display, vendor management, rating vendors, live popularity metrics, event customization, real-time updates, special prices for subscribers, event swag point of sale, email collection for customer retention, campaign options, analytics and reporting, vendor sourcing portal, additional services like trash collection, police presence, and ice delivery, vendor compensation portal, property management, permit process, rental of event assets, and sustainability badge linking to vendors.
 
 ## 3. Architecture Overview
 
-Venue follows a client-server architecture, with a web-based client interface for event coordinators and a server-side infrastructure to handle data storage and processing. The system employs a combination of frontend and backend technologies to provide a seamless user experience.
+Locus follows a client-server architecture, with a web-based client interface for event coordinators and a server-side infrastructure to handle data storage and processing. The system employs a combination of frontend and backend technologies to provide a seamless user experience.
 
 ### 3.1 Frontend Components
 
-The frontend of Venue is developed using modern web technologies, including HTML5, CSS3, and JavaScript frameworks such as React.js. The user interface is designed to be intuitive, responsive, and visually appealing. Key frontend components include:
+The frontend of Locus is developed using modern web technologies, including HTML5, CSS3, and JavaScript frameworks such as React.js. The user interface is designed to be intuitive, responsive, and visually appealing. Key frontend components include:
 
-- Map Display: The map interface provides a visual representation of the venue, with the ability to add shapes indicating vendor locations and event assets. Event coordinators can customize the map using an editor tool.
+- Map Display: The map interface provides a visual representation of the Locus, with the ability to add shapes indicating vendor locations and event assets. Event coordinators can customize the map using an editor tool.
 
 - Vendor Management: The vendor management module allows event coordinators to link and reference vendors' accounts to the map shapes. It also facilitates vendor rating and the association of sustainability badges to vendors.
 
@@ -24,7 +24,7 @@ The frontend of Venue is developed using modern web technologies, including HTML
 
 ### 3.2 Backend Components
 
-The backend of Venue is responsible for data storage, processing, and serving API endpoints. It is built using a server-side framework, such as Node.js, and uses a relational database, such as MySQL or PostgreSQL, to store and manage data. Key backend components include:
+The backend of Locus is responsible for data storage, processing, and serving API endpoints. It is built using a server-side framework, such as Node.js, and uses a relational database, such as MySQL or PostgreSQL, to store and manage data. Key backend components include:
 
 - Database: The database stores vendor information, event details, user data, and other relevant information. It facilitates efficient retrieval, update, and management of data.
 
@@ -52,8 +52,8 @@ The Vendor Compensation and Management module offers a portal for event coordina
 
 ### 4.5 Additional Services and Property Management
 
-Venue integrates additional services such as trash collection, police presence, and ice delivery. It also includes property management features for managing permits, rental of event assets, and facilitating a smooth event experience.
+Locus integrates additional services such as trash collection, police presence, and ice delivery. It also includes property management features for managing permits, rental of event assets, and facilitating a smooth event experience.
 
 ## 5. Conclusion
 
-Venue provides a comprehensive software solution for event coordinators to manage and enhance their events. With features such as vendor management, event customization, analytics and reporting, vendor compensation, additional services, and property management, the application aims to streamline event coordination and create memorable experiences for attendees.
+Locus provides a comprehensive software solution for event coordinators to manage and enhance their events. With features such as vendor management, event customization, analytics and reporting, vendor compensation, additional services, and property management, the application aims to streamline event coordination and create memorable experiences for attendees.
